@@ -1,1 +1,176 @@
-# agrinho-
+# agrinho-<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Festejando a Conexão do Campo à Cidade</title>
+    <style>
+        /* Reset e base */
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background: #f7f9fc;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #3a8dff;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            margin-bottom: 3rem;
+            background: white;
+            padding: 1.5rem 2rem;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            color: #3a8dff;
+            margin-top: 0;
+        }
+        ul {
+            list-style: inside disc;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 1rem;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        button {
+            background: #3a8dff;
+            color: white;
+            border: none;
+            padding: 1rem 1.5rem;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            margin-top: 1rem;
+        }
+        button:hover {
+            background: #005bb5;
+        }
+        #tips {
+            margin-top: 1rem;
+            background: #e7f0ff;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            display: none;
+            color: #005bb5;
+            font-weight: 600;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #3a8dff;
+            color: white;
+            margin-top: 3rem;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            main {
+                margin: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Festejando a Conexão do Campo à Cidade</h1>
+        <p>Como a tecnologia une o campo e a cidade para um futuro mais sustentável e próspero</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introdução</h2>
+            <p>
+                A tecnologia tem revolucionado a vida no campo, promovendo uma conexão direta e eficiente com a cidade. 
+                Essa integração facilita o acesso a serviços, melhora a produção agrícola, promove o desenvolvimento sustentável e fortalece a economia rural e urbana.
+            </p>
+            <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80" alt="Plantação no campo brasileiro" />
+        </section>
+
+        <section>
+            <h2>Benefícios da Tecnologia no Campo</h2>
+            <ul>
+                <li><strong>Monitoramento e Automação:</strong> Sensores e drones ajudam no monitoramento do solo, clima e plantação, otimizando recursos.</li>
+                <li><strong>Comunicação e Informação:</strong> Internet e apps permitem acesso a notícias, preços e técnicas agrícolas em tempo real.</li>
+                <li><strong>Comércio e Logística:</strong> Plataformas digitais conectam produtores diretamente aos consumidores urbanos, reduzindo intermediários.</li>
+                <li><strong>Educação e Capacitação:</strong> Cursos online e vídeos facilitam o aprendizado e a atualização dos agricultores.</li>
+                <li><strong>Sustentabilidade:</strong> Tecnologias verdes ajudam a economizar água, energia e reduzir o impacto ambiental.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tecnologias que Ligam o Campo à Cidade</h2>
+            <ul>
+                <li>Internet das Coisas (IoT): Sensores conectados que coletam dados em tempo real.</li>
+                <li>Aplicativos Móveis: Facilita comunicação, vendas e aprendizado.</li>
+                <li>Drones e Satélites: Monitoramento aéreo e análise precisa das culturas.</li>
+                <li>Big Data e Inteligência Artificial: Previsões de safra, controle de pragas e tomada de decisão.</li>
+                <li>Plataformas de E-commerce Rural: Venda direta para consumidores urbanos.</li>
+            </ul>
+            <img src="https://images.unsplash.com/photo-1584999735837-5336719aa9f3?auto=format&fit=crop&w=900&q=80" alt="Tecnologia agrícola no Brasil" />
+        </section>
+
+        <section>
+            <h2>Exemplos Práticos</h2>
+            <p>
+                Em várias regiões do Brasil, pequenos agricultores utilizam smartphones para acessar aplicativos que informam o melhor momento para a colheita, preços de mercado e técnicas sustentáveis. 
+                Além disso, cooperativas implementam plataformas online para vender diretamente para consumidores das cidades, aumentando a renda local.
+            </p>
+            <img src="https://images.unsplash.com/photo-1586544379384-6f6b0eec3c90?auto=format&fit=crop&w=900&q=80" alt="Agricultores brasileiros usando tecnologia" />
+        </section>
+
+        <section>
+            <h2>Dicas Rápidas para Potencializar a Conexão Campo-Cidade</h2>
+            <button id="btn-tips">Mostrar Dicas</button>
+            <div id="tips">
+                <ul>
+                    <li>Invista em conectividade: internet de qualidade é essencial.</li>
+                    <li>Use sensores para monitorar plantações e solo.</li>
+                    <li>Aposte em capacitação digital para agricultores.</li>
+                    <li>Utilize plataformas digitais para comercializar produtos.</li>
+                    <li>Incorpore práticas sustentáveis e tecnologias verdes.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Conexão Campo-Cidade</p>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('btn-tips');
+        const tips = document.getElementById('tips');
+
+        btn.addEventListener('click', () => {
+            if (tips.style.display === 'none' || tips.style.display === '') {
+                tips.style.display = 'block';
+                btn.textContent = 'Ocultar Dicas';
+            } else {
+                tips.style.display = 'none';
+                btn.textContent = 'Mostrar Dicas';
+            }
+        });
+    </script>
+</body>
+</html>
